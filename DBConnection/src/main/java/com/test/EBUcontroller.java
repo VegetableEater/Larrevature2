@@ -12,7 +12,7 @@ public class EBUcontroller {
 	@Autowired
 	private EBUservice ebuservice;
 	
-	@RequestMapping(value = "/")
+	@RequestMapping(value = "/YouMustConstructAdditionalPylons")
 	public String retrieveEbuInfo() {
 		return ebuservice.retrieveAll().toString();
 	}
